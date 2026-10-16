@@ -1,0 +1,2 @@
+number_of_initial_conditions,total_time_steps,monotonicity_violation_rate,maximum_single_step_value_increase,maximum_final_state_norm,median_final_state_norm
+16,20452,0,7.8013116799891e-14,1.93207396064088e-05,8.69762402565647e-06

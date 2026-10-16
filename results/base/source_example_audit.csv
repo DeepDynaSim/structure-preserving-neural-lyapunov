@@ -1,0 +1,2 @@
+samples,derivative_violation_rate,maximum_orbital_derivative,minimum_orbital_derivative,example_negative_initial_state,finite_escape_time
+250000,0.190952,9.83126715225514,-13.1660742146978,-0.5,2

@@ -1,0 +1,13 @@
+MATLAB version: 24.2.0.2712019 (R2024b)
+Random seed: 20260826
+A = [-1 4; -0.5 -1]
+P = [0.354166666667 0.291666666667; 0.291666666667 1.66666666667]
+eig(P) = [0.292270785286 1.72856254805]
+Lyapunov residual Frobenius norm = 0.000e+00
+Source example derivative violation rate = 0.19095200
+Baseline derivative violation rate = 0.02269720
+Proposed derivative violation rate = 0.00000000
+Proposed decay-margin violation rate = 0.00000000
+Proposed maximum decay margin = -1.14829763e-05
+Trajectory monotonicity violation rate = 0.00000000
+Empirical robustness threshold = 0.800000
