@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite this research software and the associated author manuscript."
+type: software
+title: "Structure-Preserving Neural Lyapunov Functions: Research Code and Proofs"
+authors:
+  - family-names: Uyulan
+    given-names: Caglar
+    orcid: "https://orcid.org/0000-0002-6423-6720"
+version: 1.0.0
+date-released: 2026-10-17
+url: "https://github.com/DeepDynaSim/structure-preserving-neural-lyapunov"
+repository-code: "https://github.com/DeepDynaSim/structure-preserving-neural-lyapunov"
+license: MIT
+keywords:
+  - neural Lyapunov functions
+  - nonlinear control
+  - stability verification
+  - interval analysis
+  - robust stability
+preferred-citation:
+  type: unpublished
+  title: "Structure-Preserving Neural Lyapunov Functions for Nonlinear Systems: Verification Conditions and Robust Stability Bounds"
+  authors:
+    - family-names: Uyulan
+      given-names: Caglar
+      orcid: "https://orcid.org/0000-0002-6423-6720"
+  year: 2026
+  notes: "Author manuscript prepared for SAGE Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering. No acceptance or publication is implied."

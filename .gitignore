@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+generated/
+generated_matlab_*.log
+artifacts/local-qa/
+*.asv
+*.m~
+.DS_Store

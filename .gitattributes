@@ -1,0 +1,8 @@
+# Preserve byte-identical supplementary artifacts and provenance hashes.
+* -text
+*.pdf binary
+*.png binary
+*.docx binary
+*.mat binary
+provenance/original_sources/** -whitespace
+results/** -whitespace
