@@ -1,0 +1,1654 @@
+{
+  "renderer": "MathJax 3.2.2 SVG; embedded paths, no external fonts",
+  "inlineFontPixels": 17,
+  "displayFontPixels": 22,
+  "expressions": [
+    {
+      "document": "README.md",
+      "occurrence": 1,
+      "display": true,
+      "label": null,
+      "source": "V_\\theta(x)=\\varepsilon\\|x\\|_2^2+\\|\\phi_\\theta(x)-\\phi_\\theta(0)\\|_2^2",
+      "svg": "docs/assets/math/display-bd57678773bd3b85.svg",
+      "sha256": "d9f413757b92bdafce45f0dc1b3950d90a906f37fb2d02b4bb30c14007f6ab7e"
+    },
+    {
+      "document": "README.md",
+      "occurrence": 2,
+      "display": true,
+      "label": null,
+      "source": "\\phi_{\\mathrm{main}}(x)=W_2\\tanh(W_1x+b_1)+b_2.",
+      "svg": "docs/assets/math/display-833b5b8aa8a67a8f.svg",
+      "sha256": "050aac0d120924f49f971f9c0700dec4ad6fb9d2d88b81d4a86162b2bb9d0da3"
+    },
+    {
+      "document": "README.md",
+      "occurrence": 3,
+      "display": true,
+      "label": null,
+      "source": "\\phi_{\\mathrm{stress}}(x)=\\tanh\\!\\left(W_2\\tanh(W_1x)\\right).",
+      "svg": "docs/assets/math/display-995f98079a543459.svg",
+      "sha256": "c93e9199897901a550f93e2578e89a9e7feb050552d47f1e8bbdcd44cac551b5"
+    },
+    {
+      "document": "README.md",
+      "occurrence": 4,
+      "display": false,
+      "label": null,
+      "source": "D_2=I",
+      "svg": "docs/assets/math/inline-267ab4b8aee27f0b.svg",
+      "sha256": "3ec284e68e080612cd30524e12d37791d8ce789f568beb2b647322388158d159"
+    },
+    {
+      "document": "README.md",
+      "occurrence": 5,
+      "display": true,
+      "label": null,
+      "source": "E_\\tau=\\left\\{x:\\|x\\|_2^2>10^{-8},\\quad \\dot V(x)+0.15\\|x\\|_2^2>10^{-10}\\right\\}.",
+      "svg": "docs/assets/math/display-52d82b721f597e96.svg",
+      "sha256": "d5bba43441458b77d22c13f7aafafbff4e9d5f99cbb2a792daabd9d01ad476cb"
+    },
+    {
+      "document": "README.md",
+      "occurrence": 6,
+      "display": false,
+      "label": null,
+      "source": "p_U\\approx1.498\\times10^{-5}",
+      "svg": "docs/assets/math/inline-3e4dee76e41f2097.svg",
+      "sha256": "f7c90576bc2e2a72ae7f7292f4c422ce55166b80344b0219aebcd24555da9fef"
+    },
+    {
+      "document": "README.md",
+      "occurrence": 7,
+      "display": false,
+      "label": null,
+      "source": "\\|x\\|_2^2\\le10^{-12}",
+      "svg": "docs/assets/math/inline-fed76e9d78960cc5.svg",
+      "sha256": "e36829ef3f557168353b9f586160d741cc9956829637714bf479eab595f0525f"
+    },
+    {
+      "document": "README.md",
+      "occurrence": 8,
+      "display": false,
+      "label": null,
+      "source": "|\\delta|",
+      "svg": "docs/assets/math/inline-aaf97d23ba85dfc8.svg",
+      "sha256": "eaf6f635c968db440ad6fd2ac370781e27e2b880653c7878404ae88bcfbf66e7"
+    },
+    {
+      "document": "README.md",
+      "occurrence": 9,
+      "display": false,
+      "label": null,
+      "source": "|\\kappa|<\\frac{c}{2g}",
+      "svg": "docs/assets/math/inline-e22723c511d9cf83.svg",
+      "sha256": "146d9848d82534dba6101466f7958a2a3c9fe24f83614d1ac76def225b30a342"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 1,
+      "display": false,
+      "label": null,
+      "source": "D\\subset\\mathbb R^n",
+      "svg": "docs/assets/math/inline-2499aeb5140d9bd3.svg",
+      "sha256": "810572c29b8386ba90a9445f47ac0ddfe0748611305ccfd0f69770427ff54748"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 2,
+      "display": false,
+      "label": null,
+      "source": "0\\in\\operatorname{int}D",
+      "svg": "docs/assets/math/inline-9a2df1b5954d33ea.svg",
+      "sha256": "7e9561ecf7417fbc53e19aee181e08aaa53fb81e84faae8d48ffdb3184475a5c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 3,
+      "display": false,
+      "label": null,
+      "source": "f_\\kappa",
+      "svg": "docs/assets/math/inline-3e507e9542909164.svg",
+      "sha256": "f97a5c067c3101ab677040bf0747c844edabc50a204fb0b1a029f3e7fc8eec4c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 4,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 5,
+      "display": false,
+      "label": null,
+      "source": "f_\\kappa(0)=0",
+      "svg": "docs/assets/math/inline-0e9cbfc3e569bae4.svg",
+      "sha256": "2e7148ccfdde01e6e9df25025063757a1af05bd9229ed4197288c3591cef5f19"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 6,
+      "display": false,
+      "label": null,
+      "source": "f",
+      "svg": "docs/assets/math/inline-0ecd48765e47be11.svg",
+      "sha256": "cc9edcc3c2e90550fcfbe32517063e4bf100bf5a25bf8363860b3813f2a192be"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 7,
+      "display": false,
+      "label": null,
+      "source": "f_\\kappa",
+      "svg": "docs/assets/math/inline-3e507e9542909164.svg",
+      "sha256": "f97a5c067c3101ab677040bf0747c844edabc50a204fb0b1a029f3e7fc8eec4c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 8,
+      "display": false,
+      "label": null,
+      "source": "\\phi:\\mathbb R^n\\to\\mathbb R^r",
+      "svg": "docs/assets/math/inline-347aa0cefed6cee0.svg",
+      "sha256": "705550204282538c7789a9953881fce43b3fa26d9cc6587dc5655f0abf6f2a0d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 9,
+      "display": false,
+      "label": null,
+      "source": "C^1",
+      "svg": "docs/assets/math/inline-60c11d6fc4fa8a83.svg",
+      "sha256": "b1d16581e68f32fc4233adac9a2c7747534181e45cf928ead8885de07b16b78a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 10,
+      "display": false,
+      "label": null,
+      "source": "\\varepsilon>0",
+      "svg": "docs/assets/math/inline-b61df334ee04b6ac.svg",
+      "sha256": "6ee64e92cf9eda757a98b2df2680933d3fda3bafc634772c1723c071367d8f40"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 11,
+      "display": true,
+      "label": "T1",
+      "source": "V(x)=\\varepsilon\\|x\\|^2+\\|\\phi(x)-\\phi(0)\\|^2. \\tag{T1}",
+      "svg": "docs/assets/math/display-1d7e6d0771732259.svg",
+      "sha256": "ef4b5c98521ccc7eff26f88c817216c906efd0f83ea540702170843ffa1e85d7"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 12,
+      "display": false,
+      "label": null,
+      "source": "f\\in C^1",
+      "svg": "docs/assets/math/inline-2222643d25bcf240.svg",
+      "sha256": "023a2d24ac22d6c16dd6ed491fc44f6d43d23d9f571eaba926612ff150ae0d33"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 13,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 14,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 15,
+      "display": false,
+      "label": null,
+      "source": "V\\in C^1",
+      "svg": "docs/assets/math/inline-f6b3e82dc9a2938c.svg",
+      "sha256": "d958bb53f729205b2a35ec1d2a86ec561ba6f6947f2b5dde88e53a57607368ea"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 16,
+      "display": false,
+      "label": null,
+      "source": "V(0)=0",
+      "svg": "docs/assets/math/inline-cf225cd71cb89c88.svg",
+      "sha256": "480706b0ce75c496e9f6f32210df5436a835ac2e62456434abfebe829783ec76"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 17,
+      "display": false,
+      "label": null,
+      "source": "V(x)\\ge\\varepsilon\\|x\\|^2",
+      "svg": "docs/assets/math/inline-27bb378bd9529b87.svg",
+      "sha256": "9ceb3a489bfed668817a1f4f8d96540f67631db966f546756731390efbc80924"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 18,
+      "display": false,
+      "label": null,
+      "source": "V",
+      "svg": "docs/assets/math/inline-d398f815d679ed6c.svg",
+      "sha256": "ed8cb34b505a3e162633cb4c15416e9fffd1314b35a01394921b91308d1cd1d1"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 19,
+      "display": false,
+      "label": null,
+      "source": "C^1",
+      "svg": "docs/assets/math/inline-60c11d6fc4fa8a83.svg",
+      "sha256": "b1d16581e68f32fc4233adac9a2c7747534181e45cf928ead8885de07b16b78a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 20,
+      "display": false,
+      "label": null,
+      "source": "C^1",
+      "svg": "docs/assets/math/inline-60c11d6fc4fa8a83.svg",
+      "sha256": "b1d16581e68f32fc4233adac9a2c7747534181e45cf928ead8885de07b16b78a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 21,
+      "display": false,
+      "label": null,
+      "source": "x\\ne0",
+      "svg": "docs/assets/math/inline-249a703f8842d474.svg",
+      "sha256": "08c6b51d491367d6733b6d840389423a115b5cf8951b8f88a0d24ca71ccf1e5f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 22,
+      "display": false,
+      "label": null,
+      "source": "V(x)\\ge\\varepsilon\\|x\\|^2\\to\\infty",
+      "svg": "docs/assets/math/inline-c70c03022882dec8.svg",
+      "sha256": "3d8ac346958a17553044efda17db7bb784f690df47614921e17fa30a27d09ff4"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 23,
+      "display": false,
+      "label": null,
+      "source": "\\|x\\|\\to\\infty",
+      "svg": "docs/assets/math/inline-42acc6f536d1a7b7.svg",
+      "sha256": "fe6b708c7adf061ba5b500707ae7bf1a210de08275477b17d0129a55211be18e"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 24,
+      "display": true,
+      "label": "T2",
+      "source": "\\nabla V(x)=2\\varepsilon x+2J_\\phi(x)^\\top[\\phi(x)-\\phi(0)]. \\tag{T2}",
+      "svg": "docs/assets/math/display-1c2b2216ae0502e5.svg",
+      "sha256": "fc3a3c7ad775e7d203578938ee79cf4e5a98a4cf3b866759131df717f5632bca"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 25,
+      "display": false,
+      "label": null,
+      "source": "Q=[\\ell,u]",
+      "svg": "docs/assets/math/inline-3c811f549772a865.svg",
+      "sha256": "7e844430861bda32ca2276989c2c389dc0946493d288a86fd897cc7921253116"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 26,
+      "display": true,
+      "label": "T3",
+      "source": "R(Q)=\\operatorname{hull}(\\{0\\}\\cup Q)=[\\min(0,\\ell),\\max(0,u)], \\tag{T3}",
+      "svg": "docs/assets/math/display-a4ed746c27fd6140.svg",
+      "sha256": "96e65be771552edbc231333a0d8f442d63598cdaf388edbd7b7f816304fcf390"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 27,
+      "display": false,
+      "label": null,
+      "source": "x\\in Q",
+      "svg": "docs/assets/math/inline-c2a2404362024525.svg",
+      "sha256": "7c45c437c25c555b946cf8bde1046ed4e7134a1567f0616d8eddece143cd0342"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 28,
+      "display": false,
+      "label": null,
+      "source": "t\\in[0,1]",
+      "svg": "docs/assets/math/inline-abfac5c79abfcda0.svg",
+      "sha256": "32bc397398d61856a0a525b84139018f8f6e564f69da45bdd37de7560eae5d2b"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 29,
+      "display": false,
+      "label": null,
+      "source": "tx\\in R(Q)",
+      "svg": "docs/assets/math/inline-4354a3c79db1323a.svg",
+      "sha256": "ea3e121ce3668fe3e740dceb261e4eb6c9ca2935476f271cb2012f37d7459281"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 30,
+      "display": true,
+      "label": "T4",
+      "source": "\\phi(x)-\\phi(0)=B(x)x,\\quad B(x)=\\int_0^1J_\\phi(tx)\\,dt, \\tag{T4}",
+      "svg": "docs/assets/math/display-de60380f62c01151.svg",
+      "sha256": "9966867f3a38f8cdd6793eddd2e20f0369d110554b9993ac4218950eecd739ba"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 31,
+      "display": true,
+      "label": "T5",
+      "source": "f(x)=F(x)x,\\quad F(x)=\\int_0^1J_f(tx)\\,dt. \\tag{T5}",
+      "svg": "docs/assets/math/display-9b44b841bceec4eb.svg",
+      "sha256": "39cbc17fd4272fdeb361e06be568abf177374c56e3f32aa2bc5b209f6d11ea2c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 32,
+      "display": false,
+      "label": null,
+      "source": "\\mathcal J_\\phi(R(Q))",
+      "svg": "docs/assets/math/inline-ba8a0c00ae9127a0.svg",
+      "sha256": "ca93baa84b531442e688fcd7cf7c1ed59002fed1e7efd4b253f48af8e3bfc194"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 33,
+      "display": false,
+      "label": null,
+      "source": "\\mathcal J_f(R(Q))",
+      "svg": "docs/assets/math/inline-eb99480ec9c8c19e.svg",
+      "sha256": "b3af06fdb7554984273aab1ba2f25636682e8c4e7d44696f360458cf054b594e"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 34,
+      "display": false,
+      "label": null,
+      "source": "R(Q)",
+      "svg": "docs/assets/math/inline-ef2dd6ef5059864a.svg",
+      "sha256": "3f369eff6811b0fc632f40762333165494594b2adbcf5a72564309c4f41cc879"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 35,
+      "display": false,
+      "label": null,
+      "source": "B(x)",
+      "svg": "docs/assets/math/inline-6876c6dbaa5f2370.svg",
+      "sha256": "c0dc6c2cb5be492d0e5ef4a10863c9dbd0921d5bdec2c87270a6bd66894dbdb8"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 36,
+      "display": false,
+      "label": null,
+      "source": "F(x)",
+      "svg": "docs/assets/math/inline-e7ed118e57d1cf57.svg",
+      "sha256": "ed113b77935cf984791e1947fc953638b6710a4328c0e2a766f2c753e8cbe506"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 37,
+      "display": false,
+      "label": null,
+      "source": "x\\in Q",
+      "svg": "docs/assets/math/inline-c2a2404362024525.svg",
+      "sha256": "7c45c437c25c555b946cf8bde1046ed4e7134a1567f0616d8eddece143cd0342"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 38,
+      "display": true,
+      "label": "T6",
+      "source": "\\begin{aligned}\nG(x)&=2\\varepsilon I+2J_\\phi(x)^\\top B(x),\\\\\nH(x)&=\\operatorname{sym}\\!\\left(G(x)^\\top F(x)\\right)+cI.\n\\end{aligned}\\tag{T6}",
+      "svg": "docs/assets/math/display-8891e23fbb936f55.svg",
+      "sha256": "3d8ede0b40889bef72899e4c1e39c28813fb06657dbfb5d3318d48415c0cbdf2"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 39,
+      "display": false,
+      "label": null,
+      "source": "G(x)",
+      "svg": "docs/assets/math/inline-3bb23bb0fee4a217.svg",
+      "sha256": "697240640502c7b0986656bf25883f41d097ad9225282692a6f015fb15c9146f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 40,
+      "display": false,
+      "label": null,
+      "source": "H(x)",
+      "svg": "docs/assets/math/inline-5aabf6d9e30889f5.svg",
+      "sha256": "cfda1988622768efd533088729c5ac6dd95314a0799e425a915d85471803f27d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 41,
+      "display": false,
+      "label": null,
+      "source": "\\operatorname{sym}M=(M+M^\\top)/2",
+      "svg": "docs/assets/math/inline-a7ab78bd592fc2b4.svg",
+      "sha256": "6c030b1bcd9b51cb0f5066943378509ee487b6b12ac59f6d800c9bf0535b861f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 42,
+      "display": false,
+      "label": null,
+      "source": "c>0",
+      "svg": "docs/assets/math/inline-afd557a616c8e78c.svg",
+      "sha256": "a9286e06ffabcf275f00ffe6f4803183b8d615e26d135364de788c5c6418ef99"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 43,
+      "display": false,
+      "label": null,
+      "source": "i,j",
+      "svg": "docs/assets/math/inline-88e69f2d5abf6691.svg",
+      "sha256": "8ef940a3e3d31d338f130870c32460377ca007198042ccd099178ba21389b638"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 44,
+      "display": false,
+      "label": null,
+      "source": "[a_{ij},b_{ij}]",
+      "svg": "docs/assets/math/inline-e4bcc36d07a082bb.svg",
+      "sha256": "c32629688bee23aaa2b7d6fc571da7fbf9f9e2b5fe14c0ffef3cccd078d4c2a5"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 45,
+      "display": false,
+      "label": null,
+      "source": "a_{ij}\\le (J_\\phi(tx))_{ij}\\le b_{ij}",
+      "svg": "docs/assets/math/inline-7b47db61ea0474da.svg",
+      "sha256": "c79c5f9369142be1e50f210d7ee296715a6d9e4d7aebf5044640d5d82b25f8f3"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 46,
+      "display": false,
+      "label": null,
+      "source": "B",
+      "svg": "docs/assets/math/inline-b0b59b83b5effd43.svg",
+      "sha256": "2628a0891e3215369f83100679efdaf742f79962ffe1275a2df34a2e876095e6"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 47,
+      "display": false,
+      "label": null,
+      "source": "F",
+      "svg": "docs/assets/math/inline-c3afc2dea66ccc19.svg",
+      "sha256": "7e6b2efc7865023a7abf56e0e83c01dedfe10e64d106bdf22eff7e673ee0b133"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 48,
+      "display": false,
+      "label": null,
+      "source": "J_\\phi(x)",
+      "svg": "docs/assets/math/inline-182b87c5d0a002b6.svg",
+      "sha256": "14b208c1ba542732ffd2871e9e25183100ca9ece98dc093b62dc3bd217543ea1"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 49,
+      "display": false,
+      "label": null,
+      "source": "Q",
+      "svg": "docs/assets/math/inline-e48ccc68dcc31a3a.svg",
+      "sha256": "bb3b82fa3eb83e25e003b333381fb40c6547f11b3f48c31be2d732c54b27e095"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 50,
+      "display": false,
+      "label": null,
+      "source": "a_1=\\tanh(W_1x+b_1)",
+      "svg": "docs/assets/math/inline-4939205fc2ce688b.svg",
+      "sha256": "7e88d923964d6a919d761b2318c90b2cd17f14b1502a71903cf764f264f98a8e"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 51,
+      "display": false,
+      "label": null,
+      "source": "\\phi=\\tanh(W_2a_1+b_2)",
+      "svg": "docs/assets/math/inline-d58cef5f1f298a12.svg",
+      "sha256": "750eab8e7e49f7d7a5a496f32628dba08112b28d1b7829cfa1e324c44eaaebd6"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 52,
+      "display": true,
+      "label": "T7",
+      "source": "J_\\phi(x)=D_2(x)W_2D_1(x)W_1,\\quad D_i=\\operatorname{diag}(1-\\tanh^2 z_i). \\tag{T7}",
+      "svg": "docs/assets/math/display-363a345c0489402e.svg",
+      "sha256": "a5ed68598cc34cedfe52cce2d1bef1e29e9925d6aed39f9ac74c0e9ce8da0868"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 53,
+      "display": false,
+      "label": null,
+      "source": "D_2=I",
+      "svg": "docs/assets/math/inline-267ab4b8aee27f0b.svg",
+      "sha256": "3ec284e68e080612cd30524e12d37791d8ce789f568beb2b647322388158d159"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 54,
+      "display": false,
+      "label": null,
+      "source": "[a,b]",
+      "svg": "docs/assets/math/inline-b7952325dff06790.svg",
+      "sha256": "6426874061865f07eef43e1e396a7ee92d4097b563dd1aa866114604e5795434"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 55,
+      "display": false,
+      "label": null,
+      "source": "\\tanh",
+      "svg": "docs/assets/math/inline-f8b2abb4e2f1aaed.svg",
+      "sha256": "faa68aa3be657d1f06bab693def4d8700f2fb1f134bc1b65c951b27c467efbae"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 56,
+      "display": false,
+      "label": null,
+      "source": "\\operatorname{sech}^2",
+      "svg": "docs/assets/math/inline-0eae43d331f665cb.svg",
+      "sha256": "39611380be4b40be9783bd9c833928fcc030023e2b25b895ea15f15669f37f06"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 57,
+      "display": false,
+      "label": null,
+      "source": "0\\in[a,b]",
+      "svg": "docs/assets/math/inline-2731e9024446513d.svg",
+      "sha256": "bc9318b3055f6b6675ac7583174d690cfc0c14ef152bf3a9f82996a84e9a8c2f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 58,
+      "display": true,
+      "label": "T8",
+      "source": "m(x)=\\nabla V(x)^\\top f(x)+c\\|x\\|^2=x^\\top H(x)x. \\tag{T8}",
+      "svg": "docs/assets/math/display-e0555d060179d136.svg",
+      "sha256": "0f6ce2e5093925e299d2e4aa677ebd6cf47598450eb00a827e937cadc9568e35"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 59,
+      "display": false,
+      "label": null,
+      "source": "H(x)",
+      "svg": "docs/assets/math/inline-5aabf6d9e30889f5.svg",
+      "sha256": "cfda1988622768efd533088729c5ac6dd95314a0799e425a915d85471803f27d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 60,
+      "display": false,
+      "label": null,
+      "source": "x\\in Q",
+      "svg": "docs/assets/math/inline-c2a2404362024525.svg",
+      "sha256": "7c45c437c25c555b946cf8bde1046ed4e7134a1567f0616d8eddece143cd0342"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 61,
+      "display": false,
+      "label": null,
+      "source": "\\lambda_{\\max}(H(x))\\le\\bar\\lambda_Q<0",
+      "svg": "docs/assets/math/inline-b1ea005abdcc6fe0.svg",
+      "sha256": "e759a7e9091e4fa84d531011698e91bb5f833009052752ef1d03ee5a3a4ab69f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 62,
+      "display": false,
+      "label": null,
+      "source": "Q",
+      "svg": "docs/assets/math/inline-e48ccc68dcc31a3a.svg",
+      "sha256": "bb3b82fa3eb83e25e003b333381fb40c6547f11b3f48c31be2d732c54b27e095"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 63,
+      "display": true,
+      "label": "T9",
+      "source": "\\dot V(x)\\le-c\\|x\\|^2\\quad(x\\in Q), \\tag{T9}",
+      "svg": "docs/assets/math/display-9a95b0ff8f810f9d.svg",
+      "sha256": "d4f467d1d3bd039618935b2b7c1262b828280588f08cf697434e64bde2c869c5"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 64,
+      "display": false,
+      "label": null,
+      "source": "x",
+      "svg": "docs/assets/math/inline-596a938169557684.svg",
+      "sha256": "9711aad1e536e8d0c3dbb3a5e7027b847c0bc56c6e56c50d3ff79292875eb5f3"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 65,
+      "display": false,
+      "label": null,
+      "source": "\\nabla V=Gx",
+      "svg": "docs/assets/math/inline-372cb250f291bfa1.svg",
+      "sha256": "a50580bc87b8545441bd1dfe74eb72e367c97930d22f09b8d6457ce0b7a9b09a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 66,
+      "display": false,
+      "label": null,
+      "source": "f=Fx",
+      "svg": "docs/assets/math/inline-e7b10868ec0aab77.svg",
+      "sha256": "e9c898aec121334385bfd3c7f76ec1e8f7eb6dcf7af9170d8679e667f325bd51"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 67,
+      "display": false,
+      "label": null,
+      "source": "H",
+      "svg": "docs/assets/math/inline-92cc7ae4a438b8d1.svg",
+      "sha256": "252479c457987d00319cbf73a6d6df9abdbb581ac3f8e5f9addcb99caec7b9c0"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 68,
+      "display": false,
+      "label": null,
+      "source": "m(x)\\le\\bar\\lambda_Q\\|x\\|^2<0",
+      "svg": "docs/assets/math/inline-c8c8d8606baae8e8.svg",
+      "sha256": "08c228ee15385710ddb7a87ac092108de1f164cd5929412a670b843b290e77ab"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 69,
+      "display": false,
+      "label": null,
+      "source": "x\\ne0",
+      "svg": "docs/assets/math/inline-249a703f8842d474.svg",
+      "sha256": "08c6b51d491367d6733b6d840389423a115b5cf8951b8f88a0d24ca71ccf1e5f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 70,
+      "display": false,
+      "label": null,
+      "source": "c\\|x\\|^2",
+      "svg": "docs/assets/math/inline-ea8e6d6411afce93.svg",
+      "sha256": "c4e041ebb95621239df47e4bccd336992c47befc0bd0dbd92eb60d61d05baa37"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 71,
+      "display": false,
+      "label": null,
+      "source": "\\bar h_{ii}",
+      "svg": "docs/assets/math/inline-f77fe2c4780cba12.svg",
+      "sha256": "8e927d6c9bbdbea1324441f0f54cc89f2e59ebeccc5ecc417806a5a8951fba31"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 72,
+      "display": false,
+      "label": null,
+      "source": "[\\underline h_{ij},\\bar h_{ij}]",
+      "svg": "docs/assets/math/inline-2b30cfa87891387e.svg",
+      "sha256": "814e15396762580353050ef1812d0e497e5cdbb7604dd2d8b9f4f3e7b371bd6a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 73,
+      "display": true,
+      "label": "T10",
+      "source": "\\bar\\lambda_Q=\\max_i\\left(\\bar h_{ii}+\\sum_{j\\ne i}\\max(|\\underline h_{ij}|,|\\bar h_{ij}|)\\right). \\tag{T10}",
+      "svg": "docs/assets/math/display-9aa7cb9c2629dbd3.svg",
+      "sha256": "9d44a548efd2b7b4e2f5a37c2d0d97330fc5ddc01006f296427cb706d0fb8258"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 74,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 75,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 76,
+      "display": false,
+      "label": null,
+      "source": "\\sup m(Q)\\le0",
+      "svg": "docs/assets/math/inline-8058bde71622cdf8.svg",
+      "sha256": "71d5d0e46ac92f845c142a7ba4ace405b3f90cf93f4df65b9a4382fbb7a626ee"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 77,
+      "display": false,
+      "label": null,
+      "source": "f(x)=Ax+0.6x_1JPx",
+      "svg": "docs/assets/math/inline-dd9acbc0281a1098.svg",
+      "sha256": "7511f3495d3a6f9211b964327acffe311a194402354db0333138895e804d2696"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 78,
+      "display": true,
+      "label": "T11",
+      "source": "F_{\\rm alg}(x)=A+0.6x_1JP,\\qquad f(x)=F_{\\rm alg}(x)x. \\tag{T11}",
+      "svg": "docs/assets/math/display-07bcc623c12aa79d.svg",
+      "sha256": "5e9aa22aa4fa2f2ccb0fbbcdcc63c8cd697a471bf589163120dafef0b13a1f65"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 79,
+      "display": true,
+      "label": "T12",
+      "source": "J_f(x)=A+0.6[(JPx)e_1^\\top+x_1JP], \\tag{T12}",
+      "svg": "docs/assets/math/display-cb90852f009fe96e.svg",
+      "sha256": "cbb8343e7bd41781652203b8400227677345f12159fdb29d07354b554a205901"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 80,
+      "display": false,
+      "label": null,
+      "source": "A+0.3[(JPx)e_1^\\top+x_1JP]",
+      "svg": "docs/assets/math/inline-2c91f474c6254f83.svg",
+      "sha256": "709a6f80b4da74aaada6461ce5543e6ce59df943237adbc02290b5542a1ba453"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 81,
+      "display": false,
+      "label": null,
+      "source": "x",
+      "svg": "docs/assets/math/inline-596a938169557684.svg",
+      "sha256": "9711aad1e536e8d0c3dbb3a5e7027b847c0bc56c6e56c50d3ff79292875eb5f3"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 82,
+      "display": false,
+      "label": null,
+      "source": "f(x)",
+      "svg": "docs/assets/math/inline-2566b5e949a84a53.svg",
+      "sha256": "79a4f3294610973479cd925c7398b6fcaa81d3a40215bb1447c65d9b0366cb58"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 83,
+      "display": false,
+      "label": null,
+      "source": "\\|B(x)\\|\\le\\beta",
+      "svg": "docs/assets/math/inline-2497d76be435ca93.svg",
+      "sha256": "c643981c31e4ebe6f789fb36f7af1445fd17fe47dd3a63aa239e2d7f0bc3bb62"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 84,
+      "display": false,
+      "label": null,
+      "source": "\\|G(x)\\|\\le g",
+      "svg": "docs/assets/math/inline-7a7d8ff02ccef9c4.svg",
+      "sha256": "a41aff62bd3fd5948445d12b8e6c993398036eb5a339c2ab28d5ce00d7670bd4"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 85,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 86,
+      "display": true,
+      "label": "T13",
+      "source": "\\begin{aligned}\nV(x)&\\le b\\|x\\|^2,\\qquad b=\\varepsilon+\\beta^2,\\\\\n\\|\\nabla V(x)\\|&\\le g\\|x\\|.\n\\end{aligned}\\tag{T13}",
+      "svg": "docs/assets/math/display-702b6a071e974eca.svg",
+      "sha256": "03468d82abd8b029aa4d1ed26a2d7d034badaf47e1d8cfb1ab4e5021d463ccef"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 87,
+      "display": false,
+      "label": null,
+      "source": "\\nabla V=Gx",
+      "svg": "docs/assets/math/inline-372cb250f291bfa1.svg",
+      "sha256": "a50580bc87b8545441bd1dfe74eb72e367c97930d22f09b8d6457ce0b7a9b09a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 88,
+      "display": false,
+      "label": null,
+      "source": "[L,U]",
+      "svg": "docs/assets/math/inline-e2a1e5bf3a76baab.svg",
+      "sha256": "b465280ffbfa351a6777a5eca28ee8a35e069e657eb701e8674401cd066a51c2"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 89,
+      "display": false,
+      "label": null,
+      "source": "\\|M\\|_2\\le\\sqrt{\\|K\\|_1\\|K\\|_\\infty}",
+      "svg": "docs/assets/math/inline-ab38eb6e0a58c014.svg",
+      "sha256": "c28d3b883a215cbc5ba23d0b955bfbecfa5c40a7f3107a37aab63959bf665ec4"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 90,
+      "display": false,
+      "label": null,
+      "source": "K_{ij}=\\max(|L_{ij}|,|U_{ij}|)",
+      "svg": "docs/assets/math/inline-822c7097cfd5bb33.svg",
+      "sha256": "956acd6fb7a9d26099693124b309b393436edbdfb983441b99b9a2c13367a2e0"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 91,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 92,
+      "display": true,
+      "label": "T14",
+      "source": "\\varepsilon\\|x\\|^2\\le V(x)\\le b\\|x\\|^2,\\qquad\n\\dot V(x)\\le-c\\|x\\|^2, \\tag{T14}",
+      "svg": "docs/assets/math/display-3bef6c0d479c0bce.svg",
+      "sha256": "8681e07dc6c89bdde7715bdea04ca5e82db146a6c780d1dfa2cc01a5e00ca10d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 93,
+      "display": false,
+      "label": null,
+      "source": "b,c>0",
+      "svg": "docs/assets/math/inline-9f6653736e8c9a91.svg",
+      "sha256": "d30986e832f393af0cf3b50c24fbcd12bd1aa32ca6f165d7dae6d662a0b5628f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 94,
+      "display": false,
+      "label": null,
+      "source": "\\rho>0",
+      "svg": "docs/assets/math/inline-a32f15ce2fc9b346.svg",
+      "sha256": "74c271e062919e579e4b51db714630f9bdb97c7e96be0e79b0259263b08b237a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 95,
+      "display": false,
+      "label": null,
+      "source": "\\Omega_\\rho=\\{x:V(x)\\le\\rho\\}",
+      "svg": "docs/assets/math/inline-a7f5baceefa213d9.svg",
+      "sha256": "0e9e8f80cc3be7614e150d7b4a9229306dff66c7d9812c77345f46543a5bb05d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 96,
+      "display": false,
+      "label": null,
+      "source": "\\operatorname{int}D",
+      "svg": "docs/assets/math/inline-66dcbaf3bcfbf31c.svg",
+      "sha256": "0162bee029fe47e454b56eab1d3c2fcb3a5997b42507209aa4ba003ba9b8f9e5"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 97,
+      "display": false,
+      "label": null,
+      "source": "x(0)\\in\\Omega_\\rho",
+      "svg": "docs/assets/math/inline-6cc8581e388f11c5.svg",
+      "sha256": "24cc63d3f549706c7e7fae17acd8a7a446d571b2968b4741a117a4e496d2d090"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 98,
+      "display": false,
+      "label": null,
+      "source": "t\\ge0",
+      "svg": "docs/assets/math/inline-e24ca25e7f937e15.svg",
+      "sha256": "3fbf64fa186efc6382fa76821f8c0b36880d202cd65c89706ff9c4371e1072fe"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 99,
+      "display": true,
+      "label": "T15",
+      "source": "\\|x(t)\\|\\le\\sqrt{b/\\varepsilon}\\,e^{-ct/(2b)}\\|x(0)\\|. \\tag{T15}",
+      "svg": "docs/assets/math/display-cffce66f9b020305.svg",
+      "sha256": "b16e9362dc3123894da939d483c775a61cc4e08dcf041223e8a6923c4ac0ee85"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 100,
+      "display": false,
+      "label": null,
+      "source": "V=\\rho>0",
+      "svg": "docs/assets/math/inline-4b1ab240076f6334.svg",
+      "sha256": "633ad83ea4aa52899eede232d23f16ad1d63b8913824ebf29435832c81a37e1f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 101,
+      "display": false,
+      "label": null,
+      "source": "x\\ne0",
+      "svg": "docs/assets/math/inline-249a703f8842d474.svg",
+      "sha256": "08c6b51d491367d6733b6d840389423a115b5cf8951b8f88a0d24ca71ccf1e5f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 102,
+      "display": false,
+      "label": null,
+      "source": "\\dot V<0",
+      "svg": "docs/assets/math/inline-6c7de8a901d86bbe.svg",
+      "sha256": "c31c23dff464e42231601b0cc611782e893cdad235c0dd9f38b6024a12829b76"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 103,
+      "display": false,
+      "label": null,
+      "source": "V",
+      "svg": "docs/assets/math/inline-d398f815d679ed6c.svg",
+      "sha256": "ed8cb34b505a3e162633cb4c15416e9fffd1314b35a01394921b91308d1cd1d1"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 104,
+      "display": false,
+      "label": null,
+      "source": "V(t)\\le V(0)",
+      "svg": "docs/assets/math/inline-315ed4124bb128be.svg",
+      "sha256": "58d9f8e4850a46128c0f8fed58704ac9b3e85df72a0dd6f80cc9710ace46ebee"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 105,
+      "display": false,
+      "label": null,
+      "source": "V\\le b\\|x\\|^2",
+      "svg": "docs/assets/math/inline-27d4262a2106d990.svg",
+      "sha256": "96a42faabd4a74fcd406542fe5f67b1bf05c4a88fec682352bb02d351a5c72b9"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 106,
+      "display": false,
+      "label": null,
+      "source": "\\dot V\\le-(c/b)V",
+      "svg": "docs/assets/math/inline-3bddd7f60fb84c5f.svg",
+      "sha256": "5be7aa1952c73e2fa9e992ab5a5b315c3f0f60fa0f1345c0f0abedca5fe9edd5"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 107,
+      "display": false,
+      "label": null,
+      "source": "V(x(t))\\le V(x(0))e^{-ct/b}",
+      "svg": "docs/assets/math/inline-fe0b00ef62436e7a.svg",
+      "sha256": "398b26cd25699009d58836229321ce5869a3ce2382aaf1104a9c7d5527576815"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 108,
+      "display": false,
+      "label": null,
+      "source": "t",
+      "svg": "docs/assets/math/inline-5db5238d4ff87096.svg",
+      "sha256": "995dfe1f62781ee019cfc68ca1f90a6e8d4e71038730e2c692e03673fb9c61f0"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 109,
+      "display": false,
+      "label": null,
+      "source": "D=[-2,2]^2",
+      "svg": "docs/assets/math/inline-86f092ce9681699e.svg",
+      "sha256": "de79b77b4e1d152d4f88f614a004690ed17b389256dc044721c187aa71f53c31"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 110,
+      "display": false,
+      "label": null,
+      "source": "\\varepsilon=0.02",
+      "svg": "docs/assets/math/inline-b137455091df06d1.svg",
+      "sha256": "9fa26a74a6e433ca4aad5ba8679a0a42eab0936f3d13826901e219d5af7ba06d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 111,
+      "display": false,
+      "label": null,
+      "source": "V\\ge0.08",
+      "svg": "docs/assets/math/inline-bc6d0e75e92e9401.svg",
+      "sha256": "11a3f372873139200750f31a6718d2857cb1d7f3b2427f19511d8287953d344f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 112,
+      "display": false,
+      "label": null,
+      "source": "\\Omega_{0.04}\\subset\\operatorname{int}D",
+      "svg": "docs/assets/math/inline-cec0875e87104f32.svg",
+      "sha256": "74a2eaf90792e843e6e7d45c4449fdfb257b07717d2717a1559d248cd1eaa083"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 113,
+      "display": false,
+      "label": null,
+      "source": "\\|\\nabla V(x)\\|\\le g\\|x\\|",
+      "svg": "docs/assets/math/inline-10dc9e38d6a4bb38.svg",
+      "sha256": "1acc11ea18b3e624ca46c440e4995a55b499d3f1f8b2e9dced6b52d58cbeaa11"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 114,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 115,
+      "display": true,
+      "label": "T16",
+      "source": "f_{\\rm true}(x)=f(x)+\\delta Bx,\\qquad\nc_\\delta=c-|\\delta|g\\|B\\|>0. \\tag{T16}",
+      "svg": "docs/assets/math/display-f239b972d4ba04c2.svg",
+      "sha256": "db69cfa11aee8213c366e0c93904cecb847ce233f83420574d94935943b39d75"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 116,
+      "display": false,
+      "label": null,
+      "source": "\\Omega_\\rho\\subset\\operatorname{int}D",
+      "svg": "docs/assets/math/inline-28a4be633e32498c.svg",
+      "sha256": "9f200323805b4b6a07263ed89caba494dcbce843f08d481c98a3c03300382ee2"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 117,
+      "display": true,
+      "label": "T17",
+      "source": "\\|x(t)\\|\\le\\sqrt{b/\\varepsilon}\\,e^{-c_\\delta t/(2b)}\\|x(0)\\|. \\tag{T17}",
+      "svg": "docs/assets/math/display-08524e5ac267ddfc.svg",
+      "sha256": "6ccf80c5efe632f6411534a51ef9bb1d8feea64a5938c373f0e959fddee004cf"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 118,
+      "display": true,
+      "label": null,
+      "source": "\\begin{aligned}\n\\dot V_{\\rm true}(x)\n&=\\nabla V(x)^\\top f(x)+\\delta\\nabla V(x)^\\top Bx\\\\\n&\\le-c\\|x\\|^2+|\\delta|\\,\\|\\nabla V(x)\\|\\,\\|B\\|\\,\\|x\\|\\\\\n&\\le-c_\\delta\\|x\\|^2.\n\\end{aligned}",
+      "svg": "docs/assets/math/display-0511f7626acb8c0c.svg",
+      "sha256": "01edeb80839e8e3f38c2d8644310a9336aa7a09713ec6c2b84e1956001ebad6d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 119,
+      "display": false,
+      "label": null,
+      "source": "c_\\delta",
+      "svg": "docs/assets/math/inline-2d0014b7593c56cb.svg",
+      "sha256": "870b97fa396ae83d2da57c469f3655462f9d38af7bfe082b87acef0c10dc2492"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 120,
+      "display": false,
+      "label": null,
+      "source": "c",
+      "svg": "docs/assets/math/inline-ad441576e8ea267e.svg",
+      "sha256": "924a3f9aa2755a9ae157ebfbf8ef99f33e2e59c6a3952eace04f8895d0f733b9"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 121,
+      "display": false,
+      "label": null,
+      "source": "\\delta",
+      "svg": "docs/assets/math/inline-2bf63149de0f4c4a.svg",
+      "sha256": "0d3640ad53891252cc1f3bccce8faadf816b2b048dabb36db5e55d76a70ec213"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 122,
+      "display": false,
+      "label": null,
+      "source": "\\delta",
+      "svg": "docs/assets/math/inline-2bf63149de0f4c4a.svg",
+      "sha256": "0d3640ad53891252cc1f3bccce8faadf816b2b048dabb36db5e55d76a70ec213"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 123,
+      "display": false,
+      "label": null,
+      "source": "\\|d(x)\\|\\le\\mu\\|x\\|",
+      "svg": "docs/assets/math/inline-d552fb867bfbbe30.svg",
+      "sha256": "7520b589424fb9c2b08fff420b87849b11f91dd6e2c7bc050e6e7de60fd0a9f3"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 124,
+      "display": false,
+      "label": null,
+      "source": "c-g\\mu",
+      "svg": "docs/assets/math/inline-0cb1f3480917dcb3.svg",
+      "sha256": "465e93fcf4b05a528f09af5222068de663e253184b1e5f2f253d5fb83bfe827b"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 125,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 126,
+      "display": true,
+      "label": "T18",
+      "source": "\\begin{aligned}\n\\dot z_1&=f(z_1)+\\kappa(z_2-z_1),\\\\\n\\dot z_2&=f(z_2)+\\kappa(z_1-z_2).\n\\end{aligned}\\tag{T18}",
+      "svg": "docs/assets/math/display-39d866c85e71854c.svg",
+      "sha256": "aea51d169ec55ac71dab3485843628c093d0198737d34386c71c6fd611b8dd3f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 127,
+      "display": false,
+      "label": null,
+      "source": "\\kappa\\in\\mathbb R",
+      "svg": "docs/assets/math/inline-b3f06f0a41164058.svg",
+      "sha256": "d62e8a1c6edc1afad21a7e187e47a00f7c92a70f26e8ddf0119f1fa6454c71da"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 128,
+      "display": false,
+      "label": null,
+      "source": "V_\\Sigma=V(z_1)+V(z_2)",
+      "svg": "docs/assets/math/inline-31f11b5a00e4647e.svg",
+      "sha256": "b83a9fc9aab705ab842fab8d82eac801ff02c895a85d1bc82ab74db87c03bdf1"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 129,
+      "display": false,
+      "label": null,
+      "source": "c_\\Sigma=c-2|\\kappa|g",
+      "svg": "docs/assets/math/inline-cda01c9d4f6433ac.svg",
+      "sha256": "49d8177fb1131a872d05fcaaf93d3c6d07d7ba25c54d7a1bf3d502a4befa879f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 130,
+      "display": false,
+      "label": null,
+      "source": "D\\times D",
+      "svg": "docs/assets/math/inline-e068608d24286b3e.svg",
+      "sha256": "47c7a738106b36a01656432273d435f6b6352fa1fe0f27fc21ad70c611ec37ae"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 131,
+      "display": true,
+      "label": "T19",
+      "source": "\\dot V_\\Sigma\\le-c_\\Sigma(\\|z_1\\|^2+\\|z_2\\|^2). \\tag{T19}",
+      "svg": "docs/assets/math/display-6412f38d29268ab5.svg",
+      "sha256": "0ed0e216efbb4826d05806ef165ddbfaec0c32885de6fb5e5bb4fb199dfe93db"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 132,
+      "display": false,
+      "label": null,
+      "source": "|\\kappa|<c/(2g)",
+      "svg": "docs/assets/math/inline-af7e9e8110f164d4.svg",
+      "sha256": "6ff825d4fee610d29de9d7b2cf5eb63f32b3c0efd2e1ce2313466d2c216a652a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 133,
+      "display": false,
+      "label": null,
+      "source": "S_\\rho=\\{(z_1,z_2):V_\\Sigma\\le\\rho\\}\\subset\\operatorname{int}(D\\times D)",
+      "svg": "docs/assets/math/inline-5936624c021d65bb.svg",
+      "sha256": "34619aac1b2941a1b842fa1d3e3b826f4b93bb8ceb5f853efd4f03ef50bfb3a4"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 134,
+      "display": false,
+      "label": null,
+      "source": "z=(z_1,z_2)",
+      "svg": "docs/assets/math/inline-3ea1ccf8e663b507.svg",
+      "sha256": "acbc2871dbdce4eaad87681bafc5e642fbf55202058a07db6dd24c3393f37b8d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 135,
+      "display": true,
+      "label": "T20",
+      "source": "\\|z(t)\\|\\le\\sqrt{b/\\varepsilon}\\,e^{-c_\\Sigma t/(2b)}\\|z(0)\\|. \\tag{T20}",
+      "svg": "docs/assets/math/display-0b9e07e3bd6bae91.svg",
+      "sha256": "d58a174b1888722f495c7e59c92d3a28cd410fb3dedff0a39c9d0789184bcbe9"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 136,
+      "display": false,
+      "label": null,
+      "source": "a=\\|z_1\\|",
+      "svg": "docs/assets/math/inline-ef679c497cbee301.svg",
+      "sha256": "eb63ce871cd6543629022df319b57a46f0c95619e09c4f504cfb3f3340b27bc5"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 137,
+      "display": false,
+      "label": null,
+      "source": "d=\\|z_2\\|",
+      "svg": "docs/assets/math/inline-07b5642ecd0264c7.svg",
+      "sha256": "35ae57bb9ff07676a9d594f0974f15ee58a433bb4641307f5fc70f1af561b42a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 138,
+      "display": false,
+      "label": null,
+      "source": "-c(a^2+d^2)",
+      "svg": "docs/assets/math/inline-45c2f3eb4cf0b6b5.svg",
+      "sha256": "01b27a3782449d3bf4cb5f65247fc62e9caf0e65459d6c016bec0a6bd61eed94"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 139,
+      "display": true,
+      "label": null,
+      "source": "|\\kappa|g[a(a+d)+d(d+a)]\n=|\\kappa|g(a+d)^2\\le2|\\kappa|g(a^2+d^2).",
+      "svg": "docs/assets/math/display-4d609bf2bce311fa.svg",
+      "sha256": "442d6d5bb187f936d93f0f41a85f8718a22506d368e6bc1b46313178eb6dcadd"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 140,
+      "display": false,
+      "label": null,
+      "source": "c_\\Sigma>0",
+      "svg": "docs/assets/math/inline-9a7830b17c8917b5.svg",
+      "sha256": "bfddae0532aec45aa685374b0ab65604d59d5e5042ba854fe3f81ef8694ee7b9"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 141,
+      "display": false,
+      "label": null,
+      "source": "S_{0.04}\\subset\\operatorname{int}(D\\times D)",
+      "svg": "docs/assets/math/inline-0d42acfb9f25574a.svg",
+      "sha256": "1be2afb9413634ff60786c3c6e6d86c24289f6e11a0cd4a93c19cf9ae104f927"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 142,
+      "display": true,
+      "label": "T21",
+      "source": "A=\\begin{bmatrix}-1&4\\\\-\\frac{1}{2}&-1\\end{bmatrix},\\quad\nP=\\begin{bmatrix}\\frac{17}{48}&\\frac{7}{24}\\\\\\frac{7}{24}&\\frac{5}{3}\\end{bmatrix},\\quad\nJ=\\begin{bmatrix}0&-1\\\\1&0\\end{bmatrix}. \\tag{T21}",
+      "svg": "docs/assets/math/display-2de18d7b7d02b631.svg",
+      "sha256": "67c5c89becaefdcea573f8cef62207714458e11e00d3a4b33b8aea4839c97020"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 143,
+      "display": false,
+      "label": null,
+      "source": "A^\\top P+PA=-I",
+      "svg": "docs/assets/math/inline-207c7d7928a53c86.svg",
+      "sha256": "f0a7e29e51c6bf6dab92330cbe1b181e8cc76d6d15a91d96602dea1b4e355f7d"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 144,
+      "display": false,
+      "label": null,
+      "source": "17/48>0",
+      "svg": "docs/assets/math/inline-42e05c247060f32b.svg",
+      "sha256": "ced33055d83c3f9bc2f527b7ee17c0fc79c4db9b6ce9019ceeff4513b69b8e5a"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 145,
+      "display": false,
+      "label": null,
+      "source": "97/192>0",
+      "svg": "docs/assets/math/inline-20189cc0b8155e1f.svg",
+      "sha256": "ba88cd9fe726c8d8f67098675c521783cb2dfbfefaefdb6ea80cc49cac1bf6a3"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 146,
+      "display": false,
+      "label": null,
+      "source": "P\\succ0",
+      "svg": "docs/assets/math/inline-623f9cf08e89819b.svg",
+      "sha256": "0fb7422ff1f484f214068bfa6137a83dcf54e81d3a9597000a23d9a88cd28d4f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 147,
+      "display": false,
+      "label": null,
+      "source": "V_{\\rm ref}=x^\\top Px",
+      "svg": "docs/assets/math/inline-3895b6a94f9b093d.svg",
+      "sha256": "2f7344e871c505074553ab81605aae821e3a4bc7412587180bb013aff96510fd"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 148,
+      "display": true,
+      "label": "T22",
+      "source": "\\dot V_{\\rm ref}=x^\\top(A^\\top P+PA)x+1.2x_1(Px)^\\top J(Px)=-\\|x\\|^2. \\tag{T22}",
+      "svg": "docs/assets/math/display-1e3a9cd878309b7f.svg",
+      "sha256": "25b47528a7cb2fa5b5018e801f9ac34bb117edf8502f3ff6fab1e6836f2057bb"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 149,
+      "display": false,
+      "label": null,
+      "source": "J^\\top=-J",
+      "svg": "docs/assets/math/inline-4d7bffd540d06b1e.svg",
+      "sha256": "2d464c5636a1e0c7e79c10a0118d1abbc1c2225bab83bfe76c3f355034e96ceb"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 150,
+      "display": false,
+      "label": null,
+      "source": "\\dot x_1=-x_1+x_1x_2",
+      "svg": "docs/assets/math/inline-42b04d33737d7a84.svg",
+      "sha256": "764b18eb0fddf2a7cad7b356ae0a87c27809a242a25505616098b2b3bd248bb1"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 151,
+      "display": false,
+      "label": null,
+      "source": "\\dot x_2=-x_2",
+      "svg": "docs/assets/math/inline-fe779196da735318.svg",
+      "sha256": "695a51bfd9b70e4abef7d4a031a4b382a6b9d24ea559fd8ad0e4bfb165e53c28"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 152,
+      "display": true,
+      "label": "T23",
+      "source": "V_{\\log}(x)=\\log(1+x_1^2)+x_2^2. \\tag{T23}",
+      "svg": "docs/assets/math/display-abdb872ef201828b.svg",
+      "sha256": "33a1c182853fe3325fa9e26993a87a891f5377be2912fa16629116303368f07c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 153,
+      "display": true,
+      "label": "T24",
+      "source": "\\dot V_{\\log}=\n-\\frac{x_1^2+2x_2^2+x_1^2x_2^2+(x_1-x_1x_2)^2}{1+x_1^2}<0\\quad(x\\ne0). \\tag{T24}",
+      "svg": "docs/assets/math/display-bedd37a1e6a00dc0.svg",
+      "sha256": "efee331e9935d2eaf037132e627590d7c5493eead235be8bac05d4a01f7236ef"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 154,
+      "display": false,
+      "label": null,
+      "source": "x_1^2+2x_2^2>0",
+      "svg": "docs/assets/math/inline-ec1caa4f99db4650.svg",
+      "sha256": "595f347479f65e06d5aace1001a20bad3dce01db2c27f944db973934a73f83fc"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 155,
+      "display": false,
+      "label": null,
+      "source": "X_i",
+      "svg": "docs/assets/math/inline-d911c949a914ee99.svg",
+      "sha256": "ac8fa3b3d1c27ad38fe759d86ce95f5e57f7756639258a4557f26225aaf5b0a2"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 156,
+      "display": false,
+      "label": null,
+      "source": "D",
+      "svg": "docs/assets/math/inline-2b08ffd953f7c889.svg",
+      "sha256": "3d9fded2b5b80306edec8ec26c6f7a4c0d4258da8b340e3be0589e96d8038f3c"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 157,
+      "display": true,
+      "label": "T25",
+      "source": "E_\\tau=\\{x:\\|x\\|^2>10^{-8},\\ m(x)>10^{-10}\\}. \\tag{T25}",
+      "svg": "docs/assets/math/display-952fe2dd08acbb4c.svg",
+      "sha256": "1845e9473aae44551e61d78e8661ff72ae04dd012d32e43595dd94bb15f5e918"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 158,
+      "display": false,
+      "label": null,
+      "source": "p=\\Pr(E_\\tau)",
+      "svg": "docs/assets/math/inline-2812b5cbd3286187.svg",
+      "sha256": "2cc27e599fd515ce9ced1f8d4b88473dadcd7d17c196a84ee5d53a72dfbacf37"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 159,
+      "display": false,
+      "label": null,
+      "source": "\\Pr(\\text{zero events in }N)=(1-p)^N",
+      "svg": "docs/assets/math/inline-8bb7e521cff51a78.svg",
+      "sha256": "13e551345139d2233e4de4b7513bc678996048dcdbca1c720b9a2c0ff04f9565"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 160,
+      "display": false,
+      "label": null,
+      "source": "\\alpha=1-\\gamma",
+      "svg": "docs/assets/math/inline-2923151d7a110374.svg",
+      "sha256": "43bee1269606e3a9f04eafd98d843e0d25c8e2d040068e715febfbbe0e92b657"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 161,
+      "display": true,
+      "label": "T26",
+      "source": "p_U=1-\\alpha^{1/N}. \\tag{T26}",
+      "svg": "docs/assets/math/display-140173a5bef14042.svg",
+      "sha256": "ef1cc1b75c16a462c3281a8477a94490e336027b07881c387782d893956fbc24"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 162,
+      "display": false,
+      "label": null,
+      "source": "N=200000",
+      "svg": "docs/assets/math/inline-f267ebb09bc5c5b9.svg",
+      "sha256": "2b96ed70eb78813eb75112b4e5d8d28eddb9cf43a0630ca0ca4f2479337ed738"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 163,
+      "display": false,
+      "label": null,
+      "source": "\\gamma=0.95",
+      "svg": "docs/assets/math/inline-d640fad7a27cfbd8.svg",
+      "sha256": "8395362b5ee9063201de26a4c78ea0c4d6718187c75072f1526c4cf5d9be4029"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 164,
+      "display": false,
+      "label": null,
+      "source": "p_U\\simeq1.4978549\\times10^{-5}",
+      "svg": "docs/assets/math/inline-1f99db4a8d2b07ea.svg",
+      "sha256": "326c6f1ee40d478f38eb20b5b8b94a7057ad139cbb6babf2c30ba42e0deb9f38"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 165,
+      "display": false,
+      "label": null,
+      "source": "m(x)>0",
+      "svg": "docs/assets/math/inline-a387eaa2c22ade02.svg",
+      "sha256": "2373c05fccffe83321fbfa5ca87cdb586225d908d5c58c4df8424ca740e38ae2"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 166,
+      "display": false,
+      "label": null,
+      "source": "\\dot x=f_0(x)+g_0(x)u",
+      "svg": "docs/assets/math/inline-7abaa848350e4c8d.svg",
+      "sha256": "4fe05f2ce057be98045804e1bf0608aeb067d27b8fa8d88edca79744da4b172f"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 167,
+      "display": false,
+      "label": null,
+      "source": "\\|u-u_{\\rm NN}(x)\\|^2",
+      "svg": "docs/assets/math/inline-c38687ef74815531.svg",
+      "sha256": "6a1cbdbad2248625c1b31d3e076b1974050b1a148ec32e9dc1ff283d0d6cc4b1"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 168,
+      "display": false,
+      "label": null,
+      "source": "u\\in U",
+      "svg": "docs/assets/math/inline-081f915b841c36c2.svg",
+      "sha256": "03e9945ac7bc8518f731ac6c25a42ce00bff41ca3450f3504a2fd42881d4d8b8"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 169,
+      "display": false,
+      "label": null,
+      "source": "\\nabla V^\\top(f_0+g_0u)\\le-c\\|x\\|^2",
+      "svg": "docs/assets/math/inline-cd2c4ba511a49121.svg",
+      "sha256": "f5204e5d63edf2d6db195a420ad8c8d6fe453855d07a0739ca87653a281adfe4"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 170,
+      "display": false,
+      "label": null,
+      "source": "s\\ge0",
+      "svg": "docs/assets/math/inline-c83429c00c7f4451.svg",
+      "sha256": "cfc697cfa3efd00edfcb68ba38e101afc50a85c407f74e49c321849ca7fc280b"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 171,
+      "display": false,
+      "label": null,
+      "source": "p s^2",
+      "svg": "docs/assets/math/inline-9bfb89df113a2c53.svg",
+      "sha256": "8eef1dc5512b959d95f4c17642933e55bab258cb2197256b77cc6c880e813af5"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 172,
+      "display": false,
+      "label": null,
+      "source": "\\nabla V^\\top(f_0+g_0u)\\le-c\\|x\\|^2+s",
+      "svg": "docs/assets/math/inline-f30f5ae089ecf36b.svg",
+      "sha256": "eecbc4e28c1b5d49c8bb4958b36ce453d86372aea50a2283dd4dd867acf51b2e"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 173,
+      "display": false,
+      "label": null,
+      "source": "s(x)\\le\\sigma\\|x\\|^2",
+      "svg": "docs/assets/math/inline-59c2482e819cc43f.svg",
+      "sha256": "1cfc4eeb272c3f65e1a98a1a35e3ab225eff33d1125688e8d77c06770d3015f9"
+    },
+    {
+      "document": "docs/THEORY.md",
+      "occurrence": 174,
+      "display": false,
+      "label": null,
+      "source": "\\sigma<c",
+      "svg": "docs/assets/math/inline-3b7e90f2c6f47313.svg",
+      "sha256": "5fd0b870ef214bcd50c9bb5b1209b102ae9654b185cc239f3c3a2c742e5ad620"
+    }
+  ]
+}
