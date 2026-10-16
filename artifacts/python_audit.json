@@ -1,0 +1,56 @@
+{
+  "scope": "Independent floating-point audit; not a formal machine certificate",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "quadratic_identity_residual": 0.0,
+  "provenance": {
+    "unchanged_artifacts_checked": 66
+  },
+  "partition": {
+    "leaf_boxes": 3271,
+    "local_leaves": 20,
+    "direct_leaves": 3251,
+    "geometry_covers_square": true,
+    "validated_outward_rounding": false
+  },
+  "main": {
+    "feature_output_activation": "identity",
+    "grid": {
+      "points": 32761,
+      "events": 0,
+      "origin_exclusion_norm_squared": 1e-08,
+      "margin_tolerance": 1e-10,
+      "worst_margin_ratio": -0.7067464845115999
+    },
+    "iid_monte_carlo": {
+      "points": 200000,
+      "events": 0,
+      "origin_exclusion_norm_squared": 1e-08,
+      "margin_tolerance": 1e-10,
+      "worst_margin_ratio": -0.7102465461407957,
+      "zero_event_one_sided_95_percent_upper": 1.4978549188181866e-05
+    },
+    "value_at_origin": 0.0,
+    "gradient_norm_at_origin": 0.0
+  },
+  "nonpolynomial": {
+    "feature_output_activation": "tanh",
+    "grid": {
+      "points": 160801,
+      "events": 0,
+      "origin_exclusion_norm_squared": 1e-12,
+      "margin_tolerance": 0.0,
+      "worst_margin_ratio": -0.01982632904223272
+    },
+    "iid_monte_carlo": {
+      "points": 200000,
+      "events": 0,
+      "origin_exclusion_norm_squared": 1e-12,
+      "margin_tolerance": 0.0,
+      "worst_margin_ratio": -0.023101356368506805,
+      "zero_event_one_sided_95_percent_upper": 1.4978549188181866e-05
+    },
+    "value_at_origin": 0.0,
+    "gradient_norm_at_origin": 0.0
+  }
+}

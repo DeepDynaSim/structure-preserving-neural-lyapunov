@@ -1,0 +1,6 @@
+revision_formal_verifier.m: 1 code-analyzer messages
+revision_training_study.m: 4 code-analyzer messages
+run_reproduction.m: 0 code-analyzer messages
+simulate_neural_lyapunov.m: 3 code-analyzer messages
+train_nonpolynomial.m: 0 code-analyzer messages
+1/2 loss=0.39739

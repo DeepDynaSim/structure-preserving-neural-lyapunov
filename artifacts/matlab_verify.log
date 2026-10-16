@@ -1,0 +1,8 @@
+[Warning: Fixed floating-point padding is NOT validated outward rounding. Outputs are numerical targets, not formal certificates.]
+[> In revision_formal_verifier (line 12)
+In run_reproduction (line 8)]
+[Warning: Vectorized content might take a long time to create, or it might contain unexpected results. Set 'ContentType' to 'image' for
+better performance. <a href="matlab:warning('off', 'MATLAB:print:ContentTypeImageSuggested')">Click here</a> to not see this message
+again.]
+Guarded numerical calculation complete: explored=6541, unresolved=0, elapsed=0.350 s.
+Numerical target delta=0.110412917, kappa_max=0.016161475, global g=4.64066553, global b=3.76997278.
