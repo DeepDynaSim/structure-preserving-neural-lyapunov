@@ -7,3 +7,5 @@ artifacts/local-qa/
 *.asv
 *.m~
 .DS_Store
+**/node_modules/
+generated/math-preview/
