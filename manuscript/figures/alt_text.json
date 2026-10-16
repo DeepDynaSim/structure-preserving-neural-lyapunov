@@ -1,0 +1,38 @@
+[
+  {
+    "descr": "Two analytical trajectories and Lyapunov-derivative traces showing finite escape and loss of decrease for an even-power scalar channel, compared with a stable odd-power dissipative channel.",
+    "title": "Figure 1",
+    "id": "25",
+    "name": "Picture"
+  },
+  {
+    "descr": "Three bar charts reporting normalized transport residual, negative decay margin, and wall-clock training time for ten independently trained networks.",
+    "title": "Figure 2",
+    "id": "35",
+    "name": "Picture"
+  },
+  {
+    "descr": "Adaptive interval partition of the square domain, with the origin neighborhood handled by a matrix bound and all remaining boxes accepted by the computational upper-bound test.",
+    "title": "Figure 3",
+    "id": "39",
+    "name": "Picture"
+  },
+  {
+    "descr": "Learned Lyapunov field, candidate rho equals 0.04 sublevel, sampled decay margins, and comparison between exact and learned level-set geometry.",
+    "title": "Figure 4",
+    "id": "42",
+    "name": "Picture"
+  },
+  {
+    "descr": "Cumulative ablation bars and one-factor sensitivity charts comparing normalized decay margins and transport residuals across training choices and parameter settings.",
+    "title": "Figure 5",
+    "id": "46",
+    "name": "Picture"
+  },
+  {
+    "descr": "Three-panel stress-test figure showing contours of the analytical logarithmic Lyapunov function, the sampled normalized decay margin of the learned neural candidate, and representative trajectories of the non-polynomial benchmark system.",
+    "title": "Figure 6",
+    "id": "51",
+    "name": "Picture"
+  }
+]
