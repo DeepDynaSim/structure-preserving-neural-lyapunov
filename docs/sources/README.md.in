@@ -1,0 +1,86 @@
+# Structure-Preserving Neural Lyapunov Functions
+
+Research code, exported networks, numerical results, and complete mathematical proofs accompanying **Structure-Preserving Neural Lyapunov Functions for Nonlinear Systems: Verification Conditions and Robust Stability Bounds**, by Caglar Uyulan.
+
+The reference is the supplied SAGE Part I author manuscript. This repository does not imply journal acceptance or publication.
+
+Formulas are displayed as scalable vector images, with the [editable LaTeX source](docs/sources/README.md.in) and a [notation and viewing guide](docs/MATH_RENDERING.md) available alongside them.
+
+The candidate
+
+$$V_\theta(x)=\varepsilon\|x\|_2^2+\|\phi_\theta(x)-\phi_\theta(0)\|_2^2$$
+
+enforces the equilibrium value and a positive quadratic floor. Derivative learning, finite testing, and continuum verification have separate roles. **The archived interval results use a fixed floating-point guard. They are numerical evidence, not a validated formal machine certificate.**
+
+## Start here
+
+- [Complete statements and proofs](docs/THEORY.md): radial enclosures, box-wise decrease, invariant sublevels, robustness, coupling, and CLF filters.
+- [Reproduction instructions](docs/REPRODUCIBILITY.md): Python audit, MATLAB experiments, seeds, dependencies, and outputs.
+- [Manuscript and implementation correspondence](docs/MANUSCRIPT_CODE_MAP.md): equations, figures, tables, and discovered differences.
+- [Verification scope](docs/VERIFICATION_STATUS.md): the rounding assumption and the distinction between general and benchmark-specific matrix factorizations.
+- [Source provenance](provenance/README.md) and [checksums](provenance/manifest.json).
+- [Author manuscript](manuscript/SAGE_PII_Structure_Preserving_Neural_Lyapunov_Functions_Caglar_Uyulan.docx).
+
+## Evaluate the supplied models without MATLAB
+
+Python 3.10 or later and NumPy are sufficient. From the repository root:
+
+```sh
+python -m pip install -r requirements.txt
+python scripts/audit_exports.py --output generated/python_audit.json
+python -m unittest discover -s tests -v
+```
+
+The audit checks the exact quadratic identity, both exported feature architectures, the main model on a 181 by 181 grid, and the non-polynomial stress-test model on a 401 by 401 grid. It also runs **separate** 200,000-point IID Monte Carlo experiments, computes the numerical event counts, and checks the stored partition's geometry. It never turns floating-point checks into a formal proof. Python's random stream and double-precision evaluation differ from the archived MATLAB single-precision runs.
+
+## Run the MATLAB experiments
+
+MATLAB R2024b with Deep Learning Toolbox and Control System Toolbox is the original experiment environment. With this repository as the current folder:
+
+```matlab
+addpath('matlab');
+run_reproduction('verify'); % rerun guarded verifier from archived selected model
+run_reproduction('full');   % base training, ten seeds, ablations, sensitivity, verifier
+```
+
+Both modes write under `generated/`; the supplied results remain available in `results/`. A separate `train_nonpolynomial` implementation and `scripts/train_nonpolynomial.py` provide derivative-only candidate generation for the supplementary benchmark. Its historical training script and optimizer settings were absent from the supplied files; these are documented reconstructions, and retraining is not promised to recover the archived weights.
+
+## Repository contents
+
+| Path | Contents |
+|---|---|
+| `matlab/` | Portable experiment entry points, complete original learning algorithms, guarded interval calculation, stress-test training |
+| `scripts/` | Independent NumPy evaluation and optional PyTorch stress-test training |
+| `tests/` | Gradient, analytical identity, probability, and export-integrity checks |
+| `docs/` | Full proofs, assumptions, reproduction guide, and correspondence to the manuscript |
+| `results/base/` | Original calibration results, figures, and MATLAB checkpoint |
+| `results/revision/` | Ten-seed study, ablations, sensitivity, weights, partition, and MATLAB checkpoints |
+| `results/nonpolynomial/` | Exact supplied JSON/CSV model and supplementary README |
+| `manuscript/` | Unchanged SAGE author manuscript and its six embedded figure assets |
+| `provenance/original_sources/` | Unmodified supplied source files, including earlier document-generation utilities |
+
+## Scope and reproducibility notes
+
+The main exported feature map has a linear output:
+
+$$\phi_{\mathrm{main}}(x)=W_2\tanh(W_1x+b_1)+b_2.$$
+
+The supplementary non-polynomial model has a tanh output:
+
+$$\phi_{\mathrm{stress}}(x)=\tanh\!\left(W_2\tanh(W_1x)\right).$$
+
+The manuscript's two-tanh Jacobian formula must use $D_2=I$ for the main export. The general radial theorem covers both choices. Details and additional correspondence notes are [recorded explicitly](docs/MANUSCRIPT_CODE_MAP.md).
+
+For the main Monte Carlo experiment, the numerical failure event is
+
+$$E_\tau=\left\{x:\|x\|_2^2>10^{-8},\quad \dot V(x)+0.15\|x\|_2^2>10^{-10}\right\}.$$
+
+The deterministic grid contributes no binomial trials. Zero events in 200,000 IID trials give a one-sided 95% upper bound $p_U\approx1.498\times10^{-5}$ for this numerical event under uniform sampling. The non-polynomial grid excludes points with $\|x\|_2^2\le10^{-12}$; its sampled evidence has no continuum implication.
+
+The theoretical robustness threshold uses $|\delta|$, and the two-system coupling condition is $|\kappa|<\frac{c}{2g}$. Both require an invariant sublevel inside the verified domain and sound bounds. The hard CLF filter requires feasibility; a positive soft slack alone gives no strict decrease guarantee.
+
+## Citation and license
+
+Use [CITATION.cff](CITATION.cff) for citation metadata. Code, numerical exports, and repository documentation including proofs use the [MIT license](LICENSE). The author manuscript is excluded from that license; its copyright remains with the author.
+
+Generative AI assisted repository preparation, code/document organization, and checks, consistently with the manuscript's disclosure. Scientific responsibility remains with the author. No third-party reference PDFs or confidential review correspondence are distributed.
