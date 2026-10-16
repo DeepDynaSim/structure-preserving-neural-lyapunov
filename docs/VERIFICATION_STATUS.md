@@ -7,7 +7,7 @@ The mathematical results in [THEORY.md](THEORY.md) are conditional on the stated
 | Claim | Support | Scope |
 |---|---|---|
 | `V(0)=0`, quadratic floor, radial unboundedness | Exact algebraic architecture | Every weight choice in real arithmetic |
-| Calibration reference derivative `-||x||²` | Exact matrix and skew-symmetry identities | Global analytical statement |
+| Calibration reference derivative `-norm(x)^2` | Exact matrix and skew-symmetry identities | Global analytical statement |
 | Logarithmic reference derivative is negative | Completed-square identity | Global analytical statement |
 | No detected sample failures | Export evaluation and archived experiment records | Only the stated points and numerical event |
 | IID failure-probability endpoint | Zero-event binomial inversion | Declared event, uniform IID distribution, fixed model |
