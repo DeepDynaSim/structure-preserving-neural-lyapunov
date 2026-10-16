@@ -1,0 +1,11 @@
+Selected no-anchor seed: 20260834
+Verifier: conservative interval/Jacobian branch-and-bound; IEEE-754 double with 1e-12 outward guard per primitive
+Domain: [-2,2]^2; target: dot(V)+0.15||x||^2 <= 0; acceptance tolerance: upper bound < -1e-10
+Local matrix square: [-0.2,0.2]^2; lambda upper -0.0902273034879; nominal alpha lower 0.240227303488
+Branch-and-bound: explored 6541; local 20; direct 3251; unresolved 0; max depth 17; min width 0.000244140625; elapsed 0.329655 s
+Closest accepted direct interval upper bound: -5.99568590623e-05
+Global gradient gain g <= 4.64066552941; V upper coefficient b <= 3.76997278381
+Certified ROA rho 0.04; boundary V lower 0.08
+Certified structured perturbation delta < 0.110412917016
+Learned interconnection small-gain: kappa < 0.0161614750136; tested formal kappa 0.01; decay margin 0.0571866894118
+Network and dynamics are exported in CSV and MAT files; partition is exported in formal_verified_partition.csv.

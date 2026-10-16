@@ -1,0 +1,2 @@
+OriginValue,MinimumValueOffOrigin,PositiveViolationRate,DerivativeViolationRate,MarginViolationRate,MaximumMarginRatio,PDERMSE,RelativeL2ValueError,TrainingTime_s
+1.9073486328125e-06,7.62939453125e-06,0,8.59254167382712e-06,1.28888125107407e-05,1.81109682027081,0.109830916907569,0.136535945531799,47.670208

@@ -1,0 +1,6 @@
+MATLAB 24.2.0.2712019 (R2024b)
+CPU: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz; physical cores used by MATLAB: 8; logical processors: 16
+Principal method: no analytical anchors; validation seed 314159; untouched final test seed 271828
+Selected seed: 20260834; multi-seed sampled success rate: 1.000000
+Zero-failure one-sided 95% binomial upper bound for N=200000: 1.49785492e-05
+Tolerances: origin excluded when ||x||^2<=1e-8; inequality violation if value exceeds +1e-10; positivity violation if V<-1e-10.

@@ -1,0 +1,4 @@
+Benchmark,Dimension,DecayRate,PDERMSE,MaxMarginRatio,MarginViolationRate,TrajectoryViolationRate,MaximumFinalNorm
+Auditable nonlinear benchmark,2,0.15,0.114471443575816,-0.710886194765153,0,0,1.68391305433774e-05
+Torque-saturated inverted pendulum,2,0.05,0.206744216277545,-0.520012783079307,0,0,1.00163198673035e-06
+Four-state coupled nonlinear oscillators,4,0.05,0.0824898854495086,-0.81000458917795,0,0,0.00251536159389583
